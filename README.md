@@ -1,17 +1,20 @@
 # PixelCNN-Tutorial
 
-This repository introduces PixelCNN with theory and a runnable implementation, followed by an application to a spin glass lattice model.
+This repository introduces **PixelCNN** with a physically and mathematically accurate explanation, plus a runnable implementation and an application to spin glass lattice models.
 
-## Quick Start: Run in Google Colab (No Setup Required)
+## 🚀 How to Run
 
-Click the badges below to run the notebooks directly in your browser:
+### Option 1: Google Colab (No Setup - Cloud GPU Available)
 
-- **01_pixelcnn_intro.ipynb**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/katjath/PixelCNN-Tutorial/blob/main/01_pixelcnn_intro.ipynb)
-- **02_spin_glass_lattice_example.ipynb**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/katjath/PixelCNN-Tutorial/blob/main/02_spin_glass_lattice_example.ipynb)
+**Best for**: Quick testing, no local setup needed
 
-## Local Setup (Python 3.11 + venv)
+Click to open and run directly in your browser:
+- [01_pixelcnn_intro.ipynb](https://colab.research.google.com/github/katjath/PixelCNN-Tutorial/blob/main/01_pixelcnn_intro.ipynb)
+- [02_spin_glass_lattice_example.ipynb](https://colab.research.google.com/github/katjath/PixelCNN-Tutorial/blob/main/02_spin_glass_lattice_example.ipynb)
 
-For running locally:
+### Option 2: Local Setup (Full Control)
+
+**Best for**: Development, reproducibility, local GPU
 
 ```bash
 git clone https://github.com/katjath/PixelCNN-Tutorial.git
@@ -22,7 +25,9 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-## Notebooks
+**Requirements**: Python 3.11+, PyTorch, NumPy, Matplotlib
 
-- `01_pixelcnn_intro.ipynb`: PixelCNN theory + implementation + sampling
-- `02_spin_glass_lattice_example.ipynb`: Spin glass lattice example
+## 📓 Notebooks
+
+- **01_pixelcnn_intro.ipynb**: Theory + masked convolutions + implementation + sampling
+- **02_spin_glass_lattice_example.ipynb**: PixelCNN applied to physical lattice models
